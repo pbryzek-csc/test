@@ -1,0 +1,128 @@
+objc[11753]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x118524988) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/AVConference.framework/AVConference (0x11845bc38). One of the two will be used. Which one is undefined.
+objc[11753]: Class PLBuildVersion is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/AssetsLibraryServices.framework/AssetsLibraryServices (0x119de2998) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/PhotoLibraryServices (0x119815880). One of the two will be used. Which one is undefined.
+2017-03-22 12:21:27.816 demo_iOS[11753:2193374] -[ViewController UIButton7_TouchUpInside:]: unrecognized selector sent to instance 0x7f9cfa50d2b0
+2017-03-22 12:21:28.483 demo_iOS[11753:2193374] Xamarin.iOS: Received unhandled ObjectiveC exception: NSInvalidArgumentException -[ViewController UIButton7_TouchUpInside:]: unrecognized selector sent to instance 0x7f9cfa50d2b0
+2017-03-22 12:21:28.844 demo_iOS[11753:2193374] 
+Unhandled Exception:
+Foundation.MonoTouchException: Objective-C exception thrown.  Name: NSInvalidArgumentException Reason: -[ViewController UIButton7_TouchUpInside:]: unrecognized selector sent to instance 0x7f9cfa50d2b0
+Native stack trace:
+	0   CoreFoundation                      0x000000010b612d4b __exceptionPreprocess + 171
+	1   libobjc.A.dylib                     0x000000010bb3421e objc_exception_throw + 48
+	2   CoreFoundation                      0x000000010b682f04 -[NSObject(NSObject) doesNotRecognizeSelector:] + 132
+	3   CoreFoundation                      0x000000010b598005 ___forwarding___ + 1013
+	4   CoreFoundation                      0x000000010b597b88 _CF_forwarding_prep_0 + 120
+	5   UIKit                               0x000000010140a8bc -[UIApplication sendAction:to:from:forEvent:] + 83
+	6   UIKit                               0x0000000101590c38 -[UIControl sendAction:to:forEvent:] + 67
+	7   UIKit                               0x0000000101590f51 -[UIControl _sendActionsForEvents:withEvent:] + 444
+	8   UIKit                               0x000000010158fe4d -[UIControl touchesEnded:withEvent:] + 668
+	9   UIKit                               0x0000000101478545 -[UIWindow _sendTouchesForEvent:] + 2747
+	10  UIKit                               0x0000000101479c33 -[UIWindow sendEvent:] + 4011
+	11  UIKit                               0x00000001014269ab -[UIApplication sendEvent:] + 371
+	12  UIKit                               0x0000000101c1372d __dispatchPreprocessedEventFromEventQueue + 3248
+	13  UIKit                               0x0000000101c0c463 __handleEventQueue + 4879
+	14  CoreFoundation                      0x000000010b5b7761 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17
+	15  CoreFoundation                      0x000000010b59c98c __CFRunLoopDoSources0 + 556
+	16  CoreFoundation                      0x000000010b59be76 __CFRunLoopRun + 918
+	17  CoreFoundation                      0x000000010b59b884 CFRunLoopRunSpecific + 420
+	18  GraphicsServices                    0x000000010c216a6f GSEventRunModal + 161
+	19  UIKit                               0x0000000101408c68 UIApplicationMain + 159
+	20  ???                                 0x00000001211951c5 0x0 + 4850274757
+	21  ???                                 0x0000000121195030 0x0 + 4850274352
+
+  at ObjCRuntime.Runtime.ThrowNSException (System.IntPtr ns_exception) [0x0000b] in <0e19e41004734f038ea3619b2ae7197a>:0 
+  at ObjCRuntime.Runtime.throw_ns_exception (System.IntPtr exc) [0x00000] in <0e19e41004734f038ea3619b2ae7197a>:0 
+  at (wrapper native-to-managed) ObjCRuntime.Runtime:throw_ns_exception (intptr)
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <0e19e41004734f038ea3619b2ae7197a>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <0e19e41004734f038ea3619b2ae7197a>:0 
+  at demo_iOS.Application.Main (System.String[] args) [0x00000] in <9b0e5f28c7c04c53a50349e6b6942a88>:0 	0   CoreFoundation                      0x000000010b612d4b __exceptionPreprocess + 171
+	1   libobjc.A.dylib                     0x000000010bb3421e objc_exception_throw + 48
+	2   CoreFoundation                      0x000000010b682f04 -[NSObject(NSObject) doesNotRecognizeSelector:] + 132
+	3   CoreFoundation                      0x000000010b598005 ___forwarding___ + 1013
+	4   CoreFoundation                      0x000000010b597b88 _CF_forwarding_prep_0 + 120
+	5   UIKit                               0x000000010140a8bc -[UIApplication sendAction:to:from:forEvent:] + 83
+	6   UIKit                               0x0000000101590c38 -[UIControl sendAction:to:forEvent:] + 67
+	7   UIKit                               0x0000000101590f51 -[UIControl _sendActionsForEvents:withEvent:] + 444
+	8   UIKit                               0x000000010158fe4d -[UIControl touchesEnded:withEvent:] + 668
+	9   UIKit                               0x0000000101478545 -[UIWindow _sendTouchesForEvent:] + 2747
+	10  UIKit                               0x0000000101479c33 -[UIWindow sendEvent:] + 4011
+	11  UIKit                               0x00000001014269ab -[UIApplication sendEvent:] + 371
+	12  UIKit                               0x0000000101c1372d __dispatchPreprocessedEventFromEventQueue + 3248
+	13  UIKit                               0x0000000101c0c463 __handleEventQueue + 4879
+	14  CoreFoundation                      0x000000010b5b7761 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17
+	15  CoreFoundation                      0x000000010b59c98c __CFRunLoopDoSources0 + 556
+	16  CoreFoundation                      0x000000010b59be76 __CFRunLoopRun + 918
+	17  CoreFoundation                      0x000000010b59b884 CFRunLoopRunSpecific + 420
+	18  GraphicsServices                    0x000000010c216a6f GSEventRunModal + 161
+	19  UIKit                               0x0000000101408c68 UIApplicationMain + 159
+	20  ???                                 0x00000001211951c5 0x0 + 4850274757
+	21  ???                                 0x0000000121195030 0x0 + 4850274352
+
+2017-03-22 12:21:28.916 demo_iOS[11753:2193374] Unhandled managed exception:
+Objective-C exception thrown.  Name: NSInvalidArgumentException Reason: -[ViewController UIButton7_TouchUpInside:]: unrecognized selector sent to instance 0x7f9cfa50d2b0
+Native stack trace:
+	0   CoreFoundation                      0x000000010b612d4b __exceptionPreprocess + 171
+	1   libobjc.A.dylib                     0x000000010bb3421e objc_exception_throw + 48
+	2   CoreFoundation                      0x000000010b682f04 -[NSObject(NSObject) doesNotRecognizeSelector:] + 132
+	3   CoreFoundation                      0x000000010b598005 ___forwarding___ + 1013
+	4   CoreFoundation                      0x000000010b597b88 _CF_forwarding_prep_0 + 120
+	5   UIKit                               0x000000010140a8bc -[UIApplication sendAction:to:from:forEvent:] + 83
+	6   UIKit                               0x0000000101590c38 -[UIControl sendAction:to:forEvent:] + 67
+	7   UIKit                               0x0000000101590f51 -[UIControl _sendActionsForEvents:withEvent:] + 444
+	8   UIKit                               0x000000010158fe4d -[UIControl touchesEnded:withEvent:] + 668
+	9   UIKit                               0x0000000101478545 -[UIWindow _sendTouchesForEvent:] + 2747
+	10  UIKit                               0x0000000101479c33 -[UIWindow sendEvent:] + 4011
+	11  UIKit                               0x00000001014269ab -[UIApplication sendEvent:] + 371
+	12  UIKit                               0x0000000101c1372d __dispatchPreprocessedEventFromEventQueue + 3248
+	13  UIKit                               0x0000000101c0c463 __handleEventQueue + 4879
+	14  CoreFoundation                      0x000000010b5b7761 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17
+	15  CoreFoundation                      0x000000010b59c98c __CFRunLoopDoSources0 + 556
+	16  CoreFoundation                      0x000000010b59be76 __CFRunLoopRun + 918
+	17  CoreFoundation                      0x000000010b59b884 CFRunLoopRunSpecific + 420
+	18  GraphicsServices                    0x000000010c216a6f GSEventRunModal + 161
+	19  UIKit                               0x0000000101408c68 UIApplicationMain + 159
+	20  ???                                 0x00000001211951c5 0x0 + 4850274757
+	21  ???                                 0x0000000121195030 0x0 + 4850274352
+ (Foundation.MonoTouchException)
+  at ObjCRuntime.Runtime.ThrowNSException (System.IntPtr ns_exception) [0x0000b] in <0e19e41004734f038ea3619b2ae7197a>:0 
+  at ObjCRuntime.Runtime.throw_ns_exception (System.IntPtr exc) [0x00000] in <0e19e41004734f038ea3619b2ae7197a>:0 
+  at (wrapper native-to-managed) ObjCRuntime.Runtime:throw_ns_exception (intptr)
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <0e19e41004734f038ea3619b2ae7197a>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <0e19e41004734f038ea3619b2ae7197a>:0 
+  at demo_iOS.Application.Main (System.String[] args) [0x00000] in <9b0e5f28c7c04c53a50349e6b6942a88>:0 
+2017-03-22 12:21:28.956 demo_iOS[11753:2193374] critical: Stacktrace:
+
+2017-03-22 12:21:28.956 demo_iOS[11753:2193374] critical: 
+Native stacktrace:
+
+2017-03-22 12:21:29.189 demo_iOS[11753:2193374] critical: 	0   demo_iOS                            0x0000000100111c1d mono_handle_native_sigsegv + 253
+2017-03-22 12:21:29.189 demo_iOS[11753:2193374] critical: 	1   libsystem_platform.dylib            0x000000010cb3abba _sigtramp + 26
+2017-03-22 12:21:29.189 demo_iOS[11753:2193374] critical: 	2   ???                                 0x000000010068c99b 0x0 + 4301834651
+2017-03-22 12:21:29.190 demo_iOS[11753:2193374] critical: 	3   libsystem_c.dylib                   0x000000010c891fd7 abort + 129
+2017-03-22 12:21:29.190 demo_iOS[11753:2193374] critical: 	4   demo_iOS                            0x00000001002933e2 xamarin_unhandled_exception_handler + 34
+2017-03-22 12:21:29.190 demo_iOS[11753:2193374] critical: 	5   demo_iOS                            0x000000010016da0b mono_invoke_unhandled_exception_hook + 139
+2017-03-22 12:21:29.190 demo_iOS[11753:2193374] critical: 	6   demo_iOS                            0x000000010011146f mono_handle_exception_internal + 5135
+2017-03-22 12:21:29.191 demo_iOS[11753:2193374] critical: 	7   demo_iOS                            0x0000000100110058 mono_handle_exception + 24
+2017-03-22 12:21:29.191 demo_iOS[11753:2193374] critical: 	8   demo_iOS                            0x000000010008957f mono_amd64_throw_exception + 143
+2017-03-22 12:21:29.191 demo_iOS[11753:2193374] critical: 	9   ???                                 0x000000011ece49e7 0x0 + 4811803111
+2017-03-22 12:21:29.191 demo_iOS[11753:2193374] critical: 	10  ???                                 0x000000011ed66f73 0x0 + 4812337011
+2017-03-22 12:21:29.191 demo_iOS[11753:2193374] critical: 	11  CoreFoundation                      0x000000010b67c5bc __handleUncaughtException + 732
+2017-03-22 12:21:29.192 demo_iOS[11753:2193374] critical: 	12  libobjc.A.dylib                     0x000000010bb34496 _ZL15_objc_terminatev + 94
+2017-03-22 12:21:29.192 demo_iOS[11753:2193374] critical: 	13  libc++abi.dylib                     0x000000010c303e69 _ZSt11__terminatePFvvE + 8
+2017-03-22 12:21:29.192 demo_iOS[11753:2193374] critical: 	14  libc++abi.dylib                     0x000000010c303af4 __cxa_rethrow + 99
+2017-03-22 12:21:29.192 demo_iOS[11753:2193374] critical: 	15  libobjc.A.dylib                     0x000000010bb343b7 objc_exception_rethrow + 40
+2017-03-22 12:21:29.192 demo_iOS[11753:2193374] critical: 	16  CoreFoundation                      0x000000010b59b90b CFRunLoopRunSpecific + 555
+2017-03-22 12:21:29.193 demo_iOS[11753:2193374] critical: 	17  GraphicsServices                    0x000000010c216a6f GSEventRunModal + 161
+2017-03-22 12:21:29.193 demo_iOS[11753:2193374] critical: 	18  UIKit                               0x0000000101408c68 UIApplicationMain + 159
+2017-03-22 12:21:29.193 demo_iOS[11753:2193374] critical: 	19  ???                                 0x00000001211951c5 0x0 + 4850274757
+2017-03-22 12:21:29.194 demo_iOS[11753:2193374] critical: 	20  ???                                 0x0000000121195030 0x0 + 4850274352
+2017-03-22 12:21:29.194 demo_iOS[11753:2193374] critical: 
+=================================================================
+Got a SIGABRT while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+

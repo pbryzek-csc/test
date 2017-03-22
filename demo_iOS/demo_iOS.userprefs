@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{BE08F42D-A64E-4687-8F43-CB94FC60FED1}|Default">
+  <MonoDevelop.Ide.ItemProperties.demo__iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AC9CD202-BA2C-4340-9D7F-C0F500682791" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="demo_iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="demo_iOS/PhoneTranslator.cs" Line="25" Column="6" />
+      <File FileName="demo_iOS/Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

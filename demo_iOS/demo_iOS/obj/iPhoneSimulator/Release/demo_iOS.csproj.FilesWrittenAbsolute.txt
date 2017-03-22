@@ -1,0 +1,9 @@
+/Users/Paul/Desktop/CodeBases/csc/Ingalls/test/demo_iOS/demo_iOS/obj/iPhoneSimulator/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/Paul/Desktop/CodeBases/csc/Ingalls/test/demo_iOS/demo_iOS/obj/iPhoneSimulator/Release/ibtool/_BundleResourceWithLogicalName.items
+/Users/Paul/Desktop/CodeBases/csc/Ingalls/test/demo_iOS/demo_iOS/obj/iPhoneSimulator/Release/actool/_PartialAppManifest.items
+/Users/Paul/Desktop/CodeBases/csc/Ingalls/test/demo_iOS/demo_iOS/obj/iPhoneSimulator/Release/actool/_BundleResourceWithLogicalName.items
+/Users/Paul/Desktop/CodeBases/csc/Ingalls/test/demo_iOS/demo_iOS/obj/iPhoneSimulator/Release/optimized/
+/Users/Paul/Desktop/CodeBases/csc/Ingalls/test/demo_iOS/demo_iOS/bin/iPhoneSimulator/Release/demo_iOS.exe.mdb
+/Users/Paul/Desktop/CodeBases/csc/Ingalls/test/demo_iOS/demo_iOS/bin/iPhoneSimulator/Release/demo_iOS.exe
+/Users/Paul/Desktop/CodeBases/csc/Ingalls/test/demo_iOS/demo_iOS/obj/iPhoneSimulator/Release/demo_iOS.exe
+/Users/Paul/Desktop/CodeBases/csc/Ingalls/test/demo_iOS/demo_iOS/obj/iPhoneSimulator/Release/demo_iOS.exe.mdb

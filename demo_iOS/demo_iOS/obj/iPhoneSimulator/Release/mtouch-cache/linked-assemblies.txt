@@ -1,0 +1,7 @@
+/Users/Paul/Desktop/CodeBases/csc/Ingalls/test/demo_iOS/demo_iOS/obj/iPhoneSimulator/Release/mtouch-cache/Link/demo_iOS.exe
+/Users/Paul/Desktop/CodeBases/csc/Ingalls/test/demo_iOS/demo_iOS/obj/iPhoneSimulator/Release/mtouch-cache/Link/Xamarin.iOS.dll
+/Users/Paul/Desktop/CodeBases/csc/Ingalls/test/demo_iOS/demo_iOS/obj/iPhoneSimulator/Release/mtouch-cache/Link/mscorlib.dll
+/Users/Paul/Desktop/CodeBases/csc/Ingalls/test/demo_iOS/demo_iOS/obj/iPhoneSimulator/Release/mtouch-cache/Link/System.Xml.dll
+/Users/Paul/Desktop/CodeBases/csc/Ingalls/test/demo_iOS/demo_iOS/obj/iPhoneSimulator/Release/mtouch-cache/Link/System.Core.dll
+/Users/Paul/Desktop/CodeBases/csc/Ingalls/test/demo_iOS/demo_iOS/obj/iPhoneSimulator/Release/mtouch-cache/Link/System.dll
+/Users/Paul/Desktop/CodeBases/csc/Ingalls/test/demo_iOS/demo_iOS/obj/iPhoneSimulator/Release/mtouch-cache/Link/Mono.Dynamic.Interpreter.dll
